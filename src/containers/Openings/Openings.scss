@@ -9,7 +9,6 @@
   }
 
   &__left-menu {
-    border-right: 1px solid var(--color-sail-gray-100);
     grid-column: 1 / span 1;
   }
 
@@ -25,8 +24,8 @@
   }
 
   &__opening-list-heading {
-    font-family: var(--font-family-inter-light);
     font-size: 36px;
+    font-weight: 300;
     line-height: 1.25;
     margin: 16px 54px 36px;
   }

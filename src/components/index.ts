@@ -8,6 +8,7 @@ import DocsMenuItems from './DocsMenuItems';
 import {DocContainer, DocEndpoint, DocImage, DocInlineCode, DocList, DocSubSection} from './DocWrapper';
 import EmptyPage from './EmptyPage';
 import FlatNavLinks from './FlatNavLinks';
+import Footer from './Footer';
 import {Button} from './FormElements';
 import HashLink from './HashLink';
 import Icon, {IconType} from './Icon';
@@ -18,9 +19,11 @@ import MenuGroup from './MenuGroup';
 import LabelFilter from './LabelFilter';
 import Loader from './Loader';
 import Pagination from './Pagination';
+import Popover from './Popover';
 import Qr from './Qr';
 import Shadow from './Shadow';
 import SlideUp from './SlideUp';
+import SocialMediaIcon from './SocialMediaIcon';
 import StepIndicator from './StepIndicator';
 import {TableBorderGrid, TableParams, TableVertical} from './Table';
 import Tabs, {Tab} from './Tabs';
@@ -45,6 +48,7 @@ export {
   DocsMenuItems,
   EmptyPage,
   FlatNavLinks,
+  Footer,
   HashLink,
   Icon,
   IconType,
@@ -55,11 +59,13 @@ export {
   MarketingButton,
   MenuGroup,
   Pagination,
+  Popover,
   Qr,
   RequestResponseSnippet,
   Shadow,
   SlideUp,
   SnippetLang,
+  SocialMediaIcon,
   StepIndicator,
   TableBorderGrid,
   TableParams,
